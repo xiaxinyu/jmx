@@ -1,0 +1,12 @@
+management:
+  endpoint:
+    jolokia:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info,jolokia
+
+spring:
+  jmx:
+    enabled: true
